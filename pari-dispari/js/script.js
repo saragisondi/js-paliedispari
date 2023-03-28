@@ -35,4 +35,3 @@ console.log(EvenOrOdd)
     return result;
   }
 
- 
