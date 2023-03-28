@@ -11,5 +11,6 @@ Dichiariamo chi ha vinto.
 - Creo un altro prompt per far inserire all'utente un numero che va da 1 a 5;
 - Creo una condizione per verificare che il  numero sia compreso tra 1 e 5 ;
 - Genero un numero random con Math.random all'interno di una funzione;
+- Creo una funzione per sommare i due numeri ottenuti;
 - Uso un modulo per capire se la somma dei due numeri è pari o dispari;
 - Dichiaro chi ha vinto;
