@@ -2,7 +2,9 @@
 // const wordUser = prompt('inserisci una parola palindroma');
 
 //chiedo all'utente di inserire una parola palindroma
-const word = 'anna';
+const word = 'annab';
 //Suddivido la parola
-const wordArr = word.split('')
-console.log(wordArr)
+let wordArr = word.split('')
+console.log(wordArr);
+//Utilizzo il metodo Reverse per invertire l'ordine degli elementi
+let wordSplit = wordArr.reverse();
