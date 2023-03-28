@@ -12,11 +12,27 @@ console.log(EvenOrOdd)
     messageNumber = numberUser +" "+ ':numero non valido';
   }console.log(messageNumber)
 
-const numberPc = getNumberRandom(1,5);
-console.log( numberPc,':numberPc')
-//genero un numero random per il computer
-function getNumberRandom( min, max ) {
-  const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
 
-  return randomNumber;
-}
+
+  //genero un numero random per il computer
+  const numberPc = getNumberRandom(1,5);
+  console.log( numberPc)
+
+  function getNumberRandom( min, max ) {
+    const randomNumber = Math.floor(Math.random() * (max - min + 1) + min);
+
+    return randomNumber;
+
+  }
+
+//sommo i numeri ottenuti
+  const sum = (numberPc , numberUser);
+  console.log('somma' , sum)
+
+  function sumEvenOrOdd(even , odd){
+    const result = !(sum % 2);
+
+    return result;
+  }
+
+ 
